@@ -1,0 +1,22 @@
+C:\Users\User\source\repos\Food Safety Application\bin\Debug\net8.0-windows\Food Safety Application.exe
+C:\Users\User\source\repos\Food Safety Application\bin\Debug\net8.0-windows\Food Safety Application.deps.json
+C:\Users\User\source\repos\Food Safety Application\bin\Debug\net8.0-windows\Food Safety Application.runtimeconfig.json
+C:\Users\User\source\repos\Food Safety Application\bin\Debug\net8.0-windows\Food Safety Application.dll
+C:\Users\User\source\repos\Food Safety Application\bin\Debug\net8.0-windows\Food Safety Application.pdb
+C:\Users\User\source\repos\Food Safety Application\obj\Debug\net8.0-windows\Food Safety Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Food Safety Application\obj\Debug\net8.0-windows\Food Safety Application.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Food Safety Application\obj\Debug\net8.0-windows\Food Safety Application.AssemblyInfo.cs
+C:\Users\User\source\repos\Food Safety Application\obj\Debug\net8.0-windows\Food Safety Application.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Food Safety Application\obj\Debug\net8.0-windows\Food Safety Application.dll
+C:\Users\User\source\repos\Food Safety Application\obj\Debug\net8.0-windows\refint\Food Safety Application.dll
+C:\Users\User\source\repos\Food Safety Application\obj\Debug\net8.0-windows\Food Safety Application.pdb
+C:\Users\User\source\repos\Food Safety Application\obj\Debug\net8.0-windows\Food Safety Application.genruntimeconfig.cache
+C:\Users\User\source\repos\Food Safety Application\obj\Debug\net8.0-windows\ref\Food Safety Application.dll
+C:\Users\User\source\repos\Food Safety Application\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\User\source\repos\Food Safety Application\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\User\source\repos\Food Safety Application\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\User\source\repos\Food Safety Application\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\User\source\repos\Food Safety Application\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\User\source\repos\Food Safety Application\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\User\source\repos\Food Safety Application\obj\Debug\net8.0-windows\Food Safety Application.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Food Safety Application\obj\Debug\net8.0-windows\Food Saf.EDADAEC2.Up2Date
