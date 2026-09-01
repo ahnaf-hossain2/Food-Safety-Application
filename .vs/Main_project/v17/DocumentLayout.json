@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:adminfoodmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|c:\\users\\user\\desktop\\c# university\\main_project\\adminfoodmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\adminfoodmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:adminfoodmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|c:\\users\\user\\desktop\\c# university\\main_project\\adminadditivesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\adminadditivesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:adminadditivesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:adminadditivesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|c:\\users\\user\\desktop\\c# university\\main_project\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -147,8 +147,8 @@
               "Title": "AdminFoodManagement.cs [Design]",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminFoodManagement.cs",
               "RelativeDocumentMoniker": "AdminFoodManagement.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminFoodManagement.cs [Design]*",
-              "RelativeToolTip": "AdminFoodManagement.cs [Design]*",
+              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminFoodManagement.cs [Design]",
+              "RelativeToolTip": "AdminFoodManagement.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-31T20:32:15.774Z",
               "EditorCaption": " [Design]"
@@ -163,8 +163,7 @@
               "RelativeToolTip": "SessionManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T19:02:52.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-31T19:02:52.227Z"
             },
             {
               "$type": "Document",
@@ -187,8 +186,7 @@
               "RelativeToolTip": "AdminAdditivesManagement.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T19:01:32.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-31T19:01:32.98Z"
             },
             {
               "$type": "Document",
@@ -199,8 +197,7 @@
               "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminAdditivesManagement.cs [Design]",
               "RelativeToolTip": "AdminAdditivesManagement.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T19:01:13.354Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-08-31T19:01:13.354Z"
             },
             {
               "$type": "Document",
@@ -212,8 +209,7 @@
               "RelativeToolTip": "DatabaseHelper.cs*",
               "ViewState": "AgIAAGkBAAAAAAAAAAArwHUBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T08:13:50.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-29T08:13:50.396Z"
             },
             {
               "$type": "Document",
@@ -221,9 +217,9 @@
               "Title": "AdminFoodManagement.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminFoodManagement.cs",
               "RelativeDocumentMoniker": "AdminFoodManagement.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminFoodManagement.cs*",
-              "RelativeToolTip": "AdminFoodManagement.cs*",
-              "ViewState": "AgIAADkAAAAAAAAAAAAkwE4AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminFoodManagement.cs",
+              "RelativeToolTip": "AdminFoodManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-31T20:32:18.487Z",
               "EditorCaption": ""
@@ -238,8 +234,7 @@
               "RelativeToolTip": "AdminAdditivesManagement.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAD4v0MAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T20:31:43.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-31T20:31:43.287Z"
             },
             {
               "$type": "Document",

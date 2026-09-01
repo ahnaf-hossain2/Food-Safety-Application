@@ -181,7 +181,7 @@ namespace FoodSafetyApplication
             // HP_ImageSlideBox
             //
             this.HP_ImageSlideBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.HP_ImageSlideBox.Image = global::Main_project.Properties.Resources.FS_HPimage1;
+            this.HP_ImageSlideBox.Image = global::FoodSafetyApplication.Properties.Resources.FS_HPimage1;
             this.HP_ImageSlideBox.Location = new System.Drawing.Point(191, 113);
             this.HP_ImageSlideBox.Name = "HP_ImageSlideBox";
             this.HP_ImageSlideBox.Size = new System.Drawing.Size(373, 184);
@@ -192,7 +192,7 @@ namespace FoodSafetyApplication
             // pictureBox1
             //
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.pictureBox1.Image = global::Main_project.Properties.Resources.Gemini_Generated_Image_x1v28ex1v28ex1v2;
+            this.pictureBox1.Image = global::FoodSafetyApplication.Properties.Resources.Gemini_Generated_Image_x1v28ex1v28ex1v2;
             this.pictureBox1.Location = new System.Drawing.Point(109, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(102, 61);

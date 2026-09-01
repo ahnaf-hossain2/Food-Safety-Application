@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\c#\\Main_project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|D:\\c#\\Main_project\\adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|d:\\c#\\main_project\\usercomplaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:usercomplaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|d:\\c#\\main_project\\user_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:user_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|D:\\c#\\Main_project\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|D:\\c#\\Main_project\\user_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:user_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User_Page.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\Main_project\\User_Page.cs",
+              "RelativeDocumentMoniker": "User_Page.cs",
+              "ToolTip": "D:\\c#\\Main_project\\User_Page.cs [Design]",
+              "RelativeToolTip": "User_Page.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T15:46:06.603Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserComplaint.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\Main_project\\UserComplaint.cs",
+              "RelativeDocumentMoniker": "UserComplaint.cs",
+              "ToolTip": "D:\\c#\\Main_project\\UserComplaint.cs [Design]",
+              "RelativeToolTip": "UserComplaint.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T15:27:32.438Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminPage.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\Main_project\\AdminPage.cs",
+              "RelativeDocumentMoniker": "AdminPage.cs",
+              "ToolTip": "D:\\c#\\Main_project\\AdminPage.cs [Design]",
+              "RelativeToolTip": "AdminPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T06:24:35.306Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User_SignUp.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\Main_project\\User_SignUp.cs",
+              "RelativeDocumentMoniker": "User_SignUp.cs",
+              "ToolTip": "D:\\c#\\Main_project\\User_SignUp.cs [Design]",
+              "RelativeToolTip": "User_SignUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T06:24:27.509Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Homepage.cs [Design]",
+              "DocumentMoniker": "D:\\c#\\Main_project\\Homepage.cs",
+              "RelativeDocumentMoniker": "Homepage.cs",
+              "ToolTip": "D:\\c#\\Main_project\\Homepage.cs [Design]",
+              "RelativeToolTip": "Homepage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T06:24:09.328Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

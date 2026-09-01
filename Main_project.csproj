@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Main_project</RootNamespace>
-    <AssemblyName>Main_project</AssemblyName>
+    <RootNamespace>FoodSafetyApplication</RootNamespace>
+    <AssemblyName>FoodSafetyApplication</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
