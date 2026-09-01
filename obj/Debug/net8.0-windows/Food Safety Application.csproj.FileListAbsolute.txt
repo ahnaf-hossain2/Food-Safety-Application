@@ -20,3 +20,24 @@ C:\Users\User\source\repos\Food Safety Application\bin\Debug\net8.0-windows\runt
 C:\Users\User\source\repos\Food Safety Application\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\User\source\repos\Food Safety Application\obj\Debug\net8.0-windows\Food Safety Application.csproj.AssemblyReference.cache
 C:\Users\User\source\repos\Food Safety Application\obj\Debug\net8.0-windows\Food Saf.EDADAEC2.Up2Date
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\Food Safety Application.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\FoodSafetyApplication.AdminAdditivesManagement.resources
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\FoodSafetyApplication.AdminComplaintsManagement.resources
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\FoodSafetyApplication.AdminFoodManagement.resources
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\FoodSafetyApplication.AdminPage.resources
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\FoodSafetyApplication.AdminUsersManagement.resources
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\FoodSafetyApplication.Homepage.resources
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\FoodSafetyApplication.IncidentsArchive.resources
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\Food_Safety_Application.Properties.Resources.resources
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\FoodSafetyApplication.UserComplaint.resources
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\FoodSafetyApplication.User_Page.resources
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\FoodSafetyApplication.User_SignUp.resources
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\Food Safety Application.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\Food Safety Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\Food Safety Application.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\Food Safety Application.AssemblyInfo.cs
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\Food Safety Application.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\Food Safety Application.sourcelink.json
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\Food Safety Application.dll
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\refint\Food Safety Application.dll
+C:\Users\User\Desktop\Food-Safety-Application\obj\Debug\net8.0-windows\Food Safety Application.pdb
