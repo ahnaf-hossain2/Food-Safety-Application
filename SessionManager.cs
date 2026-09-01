@@ -3,9 +3,7 @@ using FoodSafetyApplication.Models;
 
 namespace FoodSafetyApplication
 {
-    /// <summary>
-    /// Manages the current logged-in user session across all forms
-    /// </summary>
+ 
     public static class SessionManager
     {
         public static User CurrentUser { get; set; }

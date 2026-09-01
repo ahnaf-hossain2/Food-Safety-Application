@@ -1,135 +1,118 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|c:\\users\\user\\desktop\\c# university\\main_project\\adminfoodmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:adminfoodmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\adminfoodmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:adminfoodmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\adminadditivesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:adminadditivesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\adminadditivesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:adminadditivesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\foodsafetymain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:foodsafetymain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\admincomplaintsmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:admincomplaintsmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\adminadditivesmanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:adminadditivesmanagement.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\Food-Safety-Application\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\models\\incident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\Food-Safety-Application\\models\\incident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:models\\incident.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|c:\\users\\user\\desktop\\food-safety-application\\models\\foodsafetyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:models\\foodsafetyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\models\\complaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:1:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|c:\\users\\user\\desktop\\food-safety-application\\models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:models\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\Food-Safety-Application\\models\\complaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:models\\complaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\models\\additive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\Food-Safety-Application\\models\\additive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:models\\additive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\user_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:user_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|c:\\users\\user\\desktop\\food-safety-application\\admincomplaintsmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:admincomplaintsmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\user_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:user_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\Food-Safety-Application\\admincomplaintsmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:admincomplaintsmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\user_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:user_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\user_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:user_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\usercomplaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:usercomplaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\usercomplaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\Food-Safety-Application\\usercomplaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:usercomplaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\Food-Safety-Application\\usercomplaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:usercomplaint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\Food-Safety-Application\\user_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:user_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\Food-Safety-Application\\user_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:user_signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\Food-Safety-Application\\user_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:user_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\Food-Safety-Application\\user_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:user_page.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|c:\\users\\user\\desktop\\food-safety-application\\incidentsarchive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:incidentsarchive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|c:\\users\\user\\desktop\\food-safety-application\\incidentsarchive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:incidentsarchive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\Food-Safety-Application\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\homepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:homepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\Food-Safety-Application\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|c:\\users\\user\\desktop\\food-safety-application\\adminusersmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:adminusersmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|c:\\users\\user\\desktop\\food-safety-application\\adminusersmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:adminusersmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|c:\\users\\user\\desktop\\food-safety-application\\adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\adminpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:adminpage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|c:\\users\\user\\desktop\\food-safety-application\\adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:adminpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\usercomplaint.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:usercomplaint.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|c:\\users\\user\\desktop\\food-safety-application\\adminadditivesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:adminadditivesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\user_signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:user_signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\Food-Safety-Application\\adminadditivesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:adminadditivesmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\C# University\\Main_project\\user_page.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:user_page.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\Food-Safety-Application\\foodsafetymain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:foodsafetymain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Food-Safety-Application\\Models\\Food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:1:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|c:\\users\\user\\desktop\\food-safety-application\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Main_project||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\Food-Safety-Application\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Food-Safety-Application\\DatabaseHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|C:\\Users\\User\\Desktop\\Food-Safety-Application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840A84E5-A55D-4A37-B8D5-A2E3E0FC5E01}|Main_project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -139,396 +122,363 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminFoodManagement.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminFoodManagement.cs",
-              "RelativeDocumentMoniker": "AdminFoodManagement.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminFoodManagement.cs [Design]",
-              "RelativeToolTip": "AdminFoodManagement.cs [Design]",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowAoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T20:32:15.774Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SessionManager.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\SessionManager.cs",
-              "RelativeDocumentMoniker": "SessionManager.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\SessionManager.cs",
-              "RelativeToolTip": "SessionManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T19:02:52.227Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AdminComplaintsManagement.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminComplaintsManagement.cs",
-              "RelativeDocumentMoniker": "AdminComplaintsManagement.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminComplaintsManagement.cs [Design]",
-              "RelativeToolTip": "AdminComplaintsManagement.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T19:02:06.763Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AdminAdditivesManagement.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminAdditivesManagement.Designer.cs",
-              "RelativeDocumentMoniker": "AdminAdditivesManagement.Designer.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminAdditivesManagement.Designer.cs",
-              "RelativeToolTip": "AdminAdditivesManagement.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T19:01:32.98Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminAdditivesManagement.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminAdditivesManagement.cs",
-              "RelativeDocumentMoniker": "AdminAdditivesManagement.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminAdditivesManagement.cs [Design]",
-              "RelativeToolTip": "AdminAdditivesManagement.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T19:01:13.354Z"
+              "WhenOpened": "2026-08-31T18:56:36.049Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DatabaseHelper.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\DatabaseHelper.cs",
-              "RelativeDocumentMoniker": "DatabaseHelper.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\DatabaseHelper.cs*",
-              "RelativeToolTip": "DatabaseHelper.cs*",
-              "ViewState": "AgIAAGkBAAAAAAAAAAArwHUBAAAJAAAAAAAAAA==",
+              "Title": "FoodSafetyEntity.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\Models\\FoodSafetyEntity.cs",
+              "RelativeDocumentMoniker": "Models\\FoodSafetyEntity.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\Models\\FoodSafetyEntity.cs",
+              "RelativeToolTip": "Models\\FoodSafetyEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T08:13:50.396Z"
+              "WhenOpened": "2026-09-01T01:55:11.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserComplaint.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\UserComplaint.cs",
+              "RelativeDocumentMoniker": "UserComplaint.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\UserComplaint.cs [Design]",
+              "RelativeToolTip": "UserComplaint.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T08:23:40.11Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserComplaint.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\UserComplaint.cs",
+              "RelativeDocumentMoniker": "UserComplaint.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\UserComplaint.cs",
+              "RelativeToolTip": "UserComplaint.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T08:23:40.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminComplaintsManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\AdminComplaintsManagement.cs",
+              "RelativeDocumentMoniker": "AdminComplaintsManagement.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\AdminComplaintsManagement.cs [Design]",
+              "RelativeToolTip": "AdminComplaintsManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T19:02:06.763Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminComplaintsManagement.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\AdminComplaintsManagement.cs",
+              "RelativeDocumentMoniker": "AdminComplaintsManagement.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\AdminComplaintsManagement.cs",
+              "RelativeToolTip": "AdminComplaintsManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T01:53:42.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Additive.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\Models\\Additive.cs",
+              "RelativeDocumentMoniker": "Models\\Additive.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\Models\\Additive.cs",
+              "RelativeToolTip": "Models\\Additive.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T08:09:52.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Incident.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\Models\\Incident.cs",
+              "RelativeDocumentMoniker": "Models\\Incident.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\Models\\Incident.cs",
+              "RelativeToolTip": "Models\\Incident.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T08:14:08.041Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdminFoodManagement.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminFoodManagement.cs",
-              "RelativeDocumentMoniker": "AdminFoodManagement.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminFoodManagement.cs",
-              "RelativeToolTip": "AdminFoodManagement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T20:32:18.487Z",
+              "WhenOpened": "2026-08-29T08:14:19.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User_SignUp.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\User_SignUp.cs",
+              "RelativeDocumentMoniker": "User_SignUp.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\User_SignUp.cs",
+              "RelativeToolTip": "User_SignUp.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAA4wBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T08:23:31.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Complaint.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\Models\\Complaint.cs",
+              "RelativeDocumentMoniker": "Models\\Complaint.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\Models\\Complaint.cs",
+              "RelativeToolTip": "Models\\Complaint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T08:11:37.93Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AdminAdditivesManagement.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminAdditivesManagement.cs",
-              "RelativeDocumentMoniker": "AdminAdditivesManagement.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminAdditivesManagement.cs",
-              "RelativeToolTip": "AdminAdditivesManagement.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAD4v0MAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T20:31:43.287Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAowAwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T18:56:36.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "User_Page.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\User_Page.cs",
-              "RelativeDocumentMoniker": "User_Page.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Main_project\\User_Page.cs [Design]",
-              "RelativeToolTip": "..\\..\\Main_project\\User_Page.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T08:23:24.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FoodSafetyMain.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\FoodSafetyMain.cs",
-              "RelativeDocumentMoniker": "FoodSafetyMain.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\FoodSafetyMain.cs",
-              "RelativeToolTip": "FoodSafetyMain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T08:11:53.168Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UserComplaint.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\UserComplaint.cs",
-              "RelativeDocumentMoniker": "UserComplaint.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Main_project\\UserComplaint.cs [Design]",
-              "RelativeToolTip": "..\\..\\Main_project\\UserComplaint.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T08:23:40.11Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AdminPage.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminPage.Designer.cs",
-              "RelativeDocumentMoniker": "AdminPage.Designer.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminPage.Designer.cs",
-              "RelativeToolTip": "AdminPage.Designer.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAgwNQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-30T14:37:31.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "User_Page.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\User_Page.cs",
-              "RelativeDocumentMoniker": "User_Page.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\User_Page.cs",
-              "RelativeToolTip": "User_Page.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T08:23:26.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Additive.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\Models\\Additive.cs",
-              "RelativeDocumentMoniker": "Models\\Additive.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\Models\\Additive.cs",
-              "RelativeToolTip": "Models\\Additive.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T08:09:52.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Complaint.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\Models\\Complaint.cs",
-              "RelativeDocumentMoniker": "Models\\Complaint.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\Models\\Complaint.cs",
-              "RelativeToolTip": "Models\\Complaint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T08:11:37.93Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "Food.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\Models\\Food.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\Models\\Food.cs",
               "RelativeDocumentMoniker": "Models\\Food.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\Models\\Food.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\Models\\Food.cs",
               "RelativeToolTip": "Models\\Food.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T08:11:46.129Z"
+              "WhenOpened": "2026-08-29T08:11:46.129Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Incident.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\Models\\Incident.cs",
-              "RelativeDocumentMoniker": "Models\\Incident.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\Models\\Incident.cs",
-              "RelativeToolTip": "Models\\Incident.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Title": "User_SignUp.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\User_SignUp.cs",
+              "RelativeDocumentMoniker": "User_SignUp.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\User_SignUp.cs [Design]",
+              "RelativeToolTip": "User_SignUp.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T08:14:08.041Z"
+              "WhenOpened": "2026-08-29T08:23:30.529Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "User_Page.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\User_Page.cs",
+              "RelativeDocumentMoniker": "User_Page.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\User_Page.cs",
+              "RelativeToolTip": "User_Page.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAADwvx4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T08:14:19.25Z"
+              "WhenOpened": "2026-08-29T08:23:26.042Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AdminPage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminPage.cs",
-              "RelativeDocumentMoniker": "AdminPage.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Main_project\\AdminPage.cs [Design]",
-              "RelativeToolTip": "..\\..\\Main_project\\AdminPage.cs [Design]",
+              "DocumentIndex": 13,
+              "Title": "User_Page.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\User_Page.cs",
+              "RelativeDocumentMoniker": "User_Page.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\User_Page.cs [Design]",
+              "RelativeToolTip": "User_Page.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T07:46:36.715Z"
+              "WhenOpened": "2026-08-29T08:23:24.903Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IncidentsArchive.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\IncidentsArchive.cs",
+              "RelativeDocumentMoniker": "IncidentsArchive.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\IncidentsArchive.cs",
+              "RelativeToolTip": "IncidentsArchive.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T01:54:26.12Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "User_SignUp.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\User_SignUp.cs",
-              "RelativeDocumentMoniker": "User_SignUp.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\User_SignUp.cs [Design]",
-              "RelativeToolTip": "User_SignUp.cs [Design]",
+              "Title": "IncidentsArchive.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\IncidentsArchive.cs",
+              "RelativeDocumentMoniker": "IncidentsArchive.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\IncidentsArchive.cs [Design]",
+              "RelativeToolTip": "IncidentsArchive.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T08:23:30.529Z"
+              "WhenOpened": "2026-09-01T01:54:24.527Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdminUsersManagement.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\AdminUsersManagement.cs",
+              "RelativeDocumentMoniker": "AdminUsersManagement.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\AdminUsersManagement.cs",
+              "RelativeToolTip": "AdminUsersManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T01:53:55.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AdminUsersManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\AdminUsersManagement.cs",
+              "RelativeDocumentMoniker": "AdminUsersManagement.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\AdminUsersManagement.cs [Design]",
+              "RelativeToolTip": "AdminUsersManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T01:53:54.929Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminPage.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\AdminPage.cs",
+              "RelativeDocumentMoniker": "AdminPage.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\AdminPage.cs",
+              "RelativeToolTip": "AdminPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-01T01:53:47.548Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "Homepage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\Homepage.cs",
-              "RelativeDocumentMoniker": "Homepage.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Main_project\\Homepage.cs [Design]",
-              "RelativeToolTip": "..\\..\\Main_project\\Homepage.cs [Design]",
+              "Title": "AdminPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\AdminPage.cs",
+              "RelativeDocumentMoniker": "AdminPage.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\AdminPage.cs [Design]",
+              "RelativeToolTip": "AdminPage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T08:21:35.04Z"
+              "WhenOpened": "2026-09-01T01:53:45.888Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Homepage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\Homepage.cs",
+              "RelativeDocumentMoniker": "Homepage.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\Homepage.cs [Design]",
+              "RelativeToolTip": "Homepage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T08:21:35.04Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "User_SignUp.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\User_SignUp.cs",
-              "RelativeDocumentMoniker": "User_SignUp.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\User_SignUp.cs",
-              "RelativeToolTip": "User_SignUp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T08:23:31.302Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
               "Title": "Homepage.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\Homepage.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\Homepage.cs",
               "RelativeDocumentMoniker": "Homepage.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\Homepage.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\Homepage.cs",
               "RelativeToolTip": "Homepage.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAADwv60AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T08:23:18.395Z"
+              "WhenOpened": "2026-08-29T08:23:18.395Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "UserComplaint.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\UserComplaint.cs",
-              "RelativeDocumentMoniker": "UserComplaint.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\UserComplaint.cs",
-              "RelativeToolTip": "UserComplaint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Title": "AdminAdditivesManagement.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\AdminAdditivesManagement.cs",
+              "RelativeDocumentMoniker": "AdminAdditivesManagement.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\AdminAdditivesManagement.cs",
+              "RelativeToolTip": "AdminAdditivesManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T08:23:40.943Z"
+              "WhenOpened": "2026-09-01T01:53:37.501Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Homepage.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\Homepage.Designer.cs",
-              "RelativeDocumentMoniker": "Homepage.Designer.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\Homepage.Designer.cs",
-              "RelativeToolTip": "Homepage.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOkBAAAFAAAAAAAAAA==",
+              "DocumentIndex": 26,
+              "Title": "SessionManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\SessionManager.cs",
+              "RelativeDocumentMoniker": "SessionManager.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\SessionManager.cs",
+              "RelativeToolTip": "SessionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-30T14:32:07.018Z"
+              "WhenOpened": "2026-08-31T19:02:52.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AdminAdditivesManagement.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\AdminAdditivesManagement.cs",
+              "RelativeDocumentMoniker": "AdminAdditivesManagement.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\AdminAdditivesManagement.cs [Design]",
+              "RelativeToolTip": "AdminAdditivesManagement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T19:01:13.354Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "AdminPage.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminPage.cs",
-              "RelativeDocumentMoniker": "AdminPage.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\AdminPage.cs",
-              "RelativeToolTip": "AdminPage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T07:57:00.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UserComplaint.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\UserComplaint.Designer.cs",
-              "RelativeDocumentMoniker": "UserComplaint.Designer.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\UserComplaint.Designer.cs",
-              "RelativeToolTip": "UserComplaint.Designer.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAcwN4AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-30T14:30:07.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "User_SignUp.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\User_SignUp.Designer.cs",
-              "RelativeDocumentMoniker": "User_SignUp.Designer.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\User_SignUp.Designer.cs",
-              "RelativeToolTip": "User_SignUp.Designer.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAowFcBAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-30T14:14:08.249Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "User_Page.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\User_Page.Designer.cs",
-              "RelativeDocumentMoniker": "User_Page.Designer.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\User_Page.Designer.cs",
-              "RelativeToolTip": "User_Page.Designer.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAcwFcBAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-30T14:25:51.298Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Main_project",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\Main_project.csproj",
-              "RelativeDocumentMoniker": "Main_project.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\C# University\\Main_project\\Main_project.csproj",
-              "RelativeToolTip": "Main_project.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-08-29T08:03:38.862Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Food.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\Models\\Food.cs",
-              "RelativeDocumentMoniker": "..\\..\\Food-Safety-Application\\Models\\Food.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\Models\\Food.cs",
-              "RelativeToolTip": "..\\..\\Food-Safety-Application\\Models\\Food.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T08:00:34.909Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
               "Title": "DatabaseHelper.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\DatabaseHelper.cs",
-              "RelativeDocumentMoniker": "..\\..\\Food-Safety-Application\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "DatabaseHelper.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\DatabaseHelper.cs",
-              "RelativeToolTip": "..\\..\\Food-Safety-Application\\DatabaseHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "RelativeToolTip": "DatabaseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T07:53:58.15Z"
+              "WhenOpened": "2026-08-29T08:13:50.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FoodSafetyMain.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\FoodSafetyMain.cs",
+              "RelativeDocumentMoniker": "FoodSafetyMain.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Food-Safety-Application\\FoodSafetyMain.cs",
+              "RelativeToolTip": "FoodSafetyMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T08:11:53.168Z",
+              "EditorCaption": ""
             }
           ]
         }

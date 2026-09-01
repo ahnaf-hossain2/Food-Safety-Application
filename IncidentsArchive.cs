@@ -73,5 +73,10 @@ namespace FoodSafetyApplication
             home.Show();
             this.Close();
         }
+
+        private void IncidentsArchive_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

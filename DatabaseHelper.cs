@@ -7,12 +7,10 @@ namespace FoodSafetyApplication
 {
     public static class DatabaseHelper
     {
-        // UNIVERSAL CONNECTION STRING (Preserved your exact string)
+        // UNIVERSAL CONNECTION STRING
         private static string connectionString = @"Data Source= DESKTOP-KRCF62T\SQLEXPRESS02;Initial Catalog=FoodSafetyDB;Integrated Security=True;";
 
-        /// <summary>
-        /// Tests the connection to the database.
-        /// </summary>
+        
         public static bool VerifyConnection()
         {
             try

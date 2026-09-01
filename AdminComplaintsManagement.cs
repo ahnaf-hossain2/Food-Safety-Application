@@ -114,5 +114,10 @@ namespace FoodSafetyApplication
             adminPage.Show();
             this.Close();
         }
+
+        private void AdminComplaintsManagement_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
