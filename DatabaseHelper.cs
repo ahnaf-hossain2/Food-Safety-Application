@@ -1,21 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Data.SqlClient;
-using FoodSafetyApp.Models; // Lets us use your new Model classes
+using Main_project.Models;
 
-namespace FoodSafetyApp
+namespace Main_project
 {
     public static class DatabaseHelper
     {
-        // UNIVERSAL CONNECTION STRING
-        // ".\SQLEXPRESS" automatically targets the local SQL instance on whichever laptop runs it
+        // UNIVERSAL CONNECTION STRING (Preserved your exact string)
         private static string connectionString = @"Data Source= DESKTOP-KRCF62T\SQLEXPRESS02;Initial Catalog=FoodSafetyDB;Integrated Security=True;";
 
         /// <summary>
-        /// Tests the connection to the database. Satisfies the Verification rubric criteria.
+        /// Tests the connection to the database.
         /// </summary>
         public static bool VerifyConnection()
         {
@@ -23,27 +19,25 @@ namespace FoodSafetyApp
             {
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
-                    conn.Open(); // Attempt to open the bridge
-                    return true; // If we reach this line, the connection is perfect
+                    conn.Open();
+                    return true;
                 }
             }
             catch (Exception ex)
             {
-                // If it fails, we capture the error for debugging
                 Console.WriteLine("Database Connection Failed: " + ex.Message);
                 return false;
             }
         }
 
         // =================================================================================
-        // METHOD 1: AUTHENTICATION (Returns a User model if valid, returns null if invalid)
+        // METHOD 1: AUTHENTICATION (UPDATED to fetch new User fields)
         // =================================================================================
         public static User AuthenticateUser(string username, string password)
         {
             User loggedInUser = null;
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                // Validation: @user and @pass prevent malicious SQL injection
                 string query = "SELECT * FROM Users WHERE Username = @user AND Password = @pass";
                 SqlCommand cmd = new SqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@user", username);
@@ -52,41 +46,40 @@ namespace FoodSafetyApp
                 conn.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
 
-                if (reader.Read()) // If a matching row is found
+                if (reader.Read())
                 {
-                    // Map the SQL Data to our OOP Object
                     loggedInUser = new User(
                         Convert.ToInt32(reader["UserID"]),
+                        reader["FirstName"].ToString(),
                         reader["Username"].ToString(),
+                        reader["Gender"].ToString(),
+                        reader["Age"] != DBNull.Value ? Convert.ToInt32(reader["Age"]) : 0, // Prevents crash if Age is empty
+                        reader["Email"].ToString(),
                         reader["Password"].ToString(),
                         reader["Role"].ToString()
                     );
                 }
             }
-            return loggedInUser; // Returns the user (Verification passed) or null (Validation failed)
+            return loggedInUser;
         }
 
         // =================================================================================
-        // METHOD 2: SEARCH FOODS (Returns a List of Food models)
+        // METHOD 2: SEARCH FOODS 
         // =================================================================================
         public static List<Food> SearchFoods(string keyword)
         {
             List<Food> foodList = new List<Food>();
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                // Validation: @keyword searches securely
                 string query = "SELECT * FROM Foods WHERE FoodName LIKE @keyword OR Category LIKE @keyword";
                 SqlCommand cmd = new SqlCommand(query, conn);
-
-                // Adding '%' allows partial matches (e.g., typing "Man" finds "Mango")
                 cmd.Parameters.AddWithValue("@keyword", "%" + keyword + "%");
 
                 conn.Open();
                 SqlDataReader reader = cmd.ExecuteReader();
 
-                while (reader.Read()) // Loop through all matching rows
+                while (reader.Read())
                 {
-                    // Map the SQL Data to our OOP Object
                     Food food = new Food(
                         Convert.ToInt32(reader["FoodID"]),
                         reader["FoodName"].ToString(),
@@ -100,38 +93,43 @@ namespace FoodSafetyApp
         }
 
         // =================================================================================
-        // METHOD 3: SUBMIT COMPLAINT (CREATE - Returns true if successful)
+        // METHOD 3: SUBMIT COMPLAINT (UPDATED to use Complaint object and new Vendor fields)
         // =================================================================================
-        public static bool SubmitComplaint(int userId, string foodName, string vendor, string type, string description)
+        public static bool SubmitComplaint(Complaint complaint)
         {
             try
             {
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
-                    // Validation: Parameterized query prevents SQL injection when inserting data
-                    string query = "INSERT INTO Complaints (UserID, FoodName, Vendor, ComplaintType, Description) " +
-                                   "VALUES (@userId, @foodName, @vendor, @type, @desc)";
+                    string query = @"INSERT INTO Complaints (UserID, Username, FoodItemName, VendorName, VendorID, DetailComplaint, Status, AdminResponse, DateSubmitted) 
+                                     VALUES (@UserID, @Username, @FoodItemName, @VendorName, @VendorID, @DetailComplaint, @Status, @AdminResponse, @DateSubmitted)";
 
                     SqlCommand cmd = new SqlCommand(query, conn);
-                    cmd.Parameters.AddWithValue("@userId", userId);
-                    cmd.Parameters.AddWithValue("@foodName", foodName);
-                    cmd.Parameters.AddWithValue("@vendor", vendor);
-                    cmd.Parameters.AddWithValue("@type", type);
-                    cmd.Parameters.AddWithValue("@desc", description);
+
+                    // We pass values from the object directly into SQL
+                    cmd.Parameters.AddWithValue("@UserID", complaint.UserID);
+                    cmd.Parameters.AddWithValue("@Username", complaint.Username ?? (object)DBNull.Value);
+                    cmd.Parameters.AddWithValue("@FoodItemName", complaint.FoodItemName ?? (object)DBNull.Value);
+                    cmd.Parameters.AddWithValue("@VendorName", string.IsNullOrWhiteSpace(complaint.VendorName) ? (object)DBNull.Value : complaint.VendorName);
+                    cmd.Parameters.AddWithValue("@VendorID", string.IsNullOrWhiteSpace(complaint.VendorID) ? (object)DBNull.Value : complaint.VendorID);
+                    cmd.Parameters.AddWithValue("@DetailComplaint", complaint.DetailComplaint ?? (object)DBNull.Value);
+                    cmd.Parameters.AddWithValue("@Status", string.IsNullOrWhiteSpace(complaint.Status) ? "Pending" : complaint.Status);
+                    cmd.Parameters.AddWithValue("@AdminResponse", string.IsNullOrWhiteSpace(complaint.AdminResponse) ? (object)DBNull.Value : complaint.AdminResponse);
+                    cmd.Parameters.AddWithValue("@DateSubmitted", complaint.DateSubmitted == default ? DateTime.Now : complaint.DateSubmitted);
 
                     conn.Open();
-                    int rowsAffected = cmd.ExecuteNonQuery(); // Executes the INSERT command
-                    return rowsAffected > 0; // Returns true if the data was successfully saved
+                    int rowsAffected = cmd.ExecuteNonQuery();
+                    return rowsAffected > 0;
                 }
             }
             catch
             {
-                return false; // If anything goes wrong, return false gracefully
+                return false;
             }
         }
 
         // =================================================================================
-        // METHOD 4: GET ALL ADDITIVES (READ - Returns a List of Additive models)
+        // METHOD 4: GET ALL ADDITIVES 
         // =================================================================================
         public static List<Additive> GetAllAdditives()
         {
@@ -146,7 +144,6 @@ namespace FoodSafetyApp
 
                 while (reader.Read())
                 {
-                    // Map the SQL Data to our OOP Object
                     Additive additive = new Additive(
                         Convert.ToInt32(reader["AdditiveID"]),
                         reader["AdditiveName"].ToString(),
@@ -162,14 +159,13 @@ namespace FoodSafetyApp
         }
 
         // =================================================================================
-        // METHOD 5: GET INCIDENTS ARCHIVE (READ - Returns a List of Incident models)
+        // METHOD 5: GET INCIDENTS ARCHIVE
         // =================================================================================
         public static List<Incident> GetIncidents()
         {
             List<Incident> incidentList = new List<Incident>();
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                // ORDER BY DESC shows the newest incidents at the top
                 string query = "SELECT * FROM Incidents ORDER BY IncidentDate DESC";
                 SqlCommand cmd = new SqlCommand(query, conn);
 
@@ -178,7 +174,6 @@ namespace FoodSafetyApp
 
                 while (reader.Read())
                 {
-                    // Map the SQL Data to our OOP Object
                     Incident incident = new Incident(
                         Convert.ToInt32(reader["IncidentID"]),
                         reader["Title"].ToString(),
@@ -195,7 +190,7 @@ namespace FoodSafetyApp
         }
 
         // =================================================================================
-        // METHOD 6: UPDATE COMPLAINT STATUS (UPDATE - Admin Feature)
+        // METHOD 6: UPDATE COMPLAINT STATUS 
         // =================================================================================
         public static bool UpdateComplaintStatus(int complaintId, string status, string adminResponse)
         {
@@ -203,7 +198,6 @@ namespace FoodSafetyApp
             {
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
-                    // Validation: Parameterized query to safely update records
                     string query = "UPDATE Complaints SET Status = @status, AdminResponse = @response WHERE ComplaintID = @id";
                     SqlCommand cmd = new SqlCommand(query, conn);
                     cmd.Parameters.AddWithValue("@status", status);
@@ -222,7 +216,7 @@ namespace FoodSafetyApp
         }
 
         // =================================================================================
-        // METHOD 7: CALCULATE CATEGORY SAFETY SCORE (UNIQUE INNOVATION FEATURE)
+        // METHOD 7: CALCULATE CATEGORY SAFETY SCORE 
         // =================================================================================
         public static double CalculateCategorySafetyScore(string category)
         {
@@ -243,31 +237,36 @@ namespace FoodSafetyApp
                     totalItems++;
                     if (reader["SafetyStatus"].ToString() == "Safe")
                     {
-                        safeItems++; // Count how many items are purely 'Safe'
+                        safeItems++;
                     }
                 }
             }
 
-            // Calculate percentage safely
             if (totalItems == 0) return 0;
             return Math.Round((double)safeItems / totalItems * 100, 2);
         }
 
-
         // =================================================================================
-        // METHOD 8: SIGN UP / REGISTER USER (CREATE - User Registration)
+        // METHOD 8: SIGN UP / REGISTER USER (UPDATED to accept the User object)
         // =================================================================================
-        public static bool RegisterUser(string username, string password, string role = "User")
+        public static bool RegisterUser(User user)
         {
             try
             {
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
-                    string query = "INSERT INTO Users (Username, Password, Role) VALUES (@user, @pass, @role)";
+                    string query = @"INSERT INTO Users (FirstName, Username, Gender, Age, Email, Password, Role) 
+                                     VALUES (@FirstName, @Username, @Gender, @Age, @Email, @Password, @Role)";
+
                     SqlCommand cmd = new SqlCommand(query, conn);
-                    cmd.Parameters.AddWithValue("@user", username);
-                    cmd.Parameters.AddWithValue("@pass", password);
-                    cmd.Parameters.AddWithValue("@role", role);
+
+                    cmd.Parameters.AddWithValue("@FirstName", string.IsNullOrWhiteSpace(user.FirstName) ? (object)DBNull.Value : user.FirstName);
+                    cmd.Parameters.AddWithValue("@Username", user.Username);
+                    cmd.Parameters.AddWithValue("@Gender", string.IsNullOrWhiteSpace(user.Gender) ? (object)DBNull.Value : user.Gender);
+                    cmd.Parameters.AddWithValue("@Age", user.Age);
+                    cmd.Parameters.AddWithValue("@Email", string.IsNullOrWhiteSpace(user.Email) ? (object)DBNull.Value : user.Email);
+                    cmd.Parameters.AddWithValue("@Password", user.Password);
+                    cmd.Parameters.AddWithValue("@Role", string.IsNullOrWhiteSpace(user.Role) ? "User" : user.Role);
 
                     conn.Open();
                     return cmd.ExecuteNonQuery() > 0;
@@ -275,12 +274,12 @@ namespace FoodSafetyApp
             }
             catch
             {
-                return false; // Returns false if username already exists (UNIQUE constraint)
+                return false;
             }
         }
 
         // =================================================================================
-        // METHOD 9: GET USER COMPLAINT HISTORY (READ - Specific User History)
+        // METHOD 9: GET USER COMPLAINT HISTORY (UPDATED mapping for new Vendor fields)
         // =================================================================================
         public static List<Complaint> GetUserComplaints(int userId)
         {
@@ -298,10 +297,11 @@ namespace FoodSafetyApp
                     list.Add(new Complaint(
                         Convert.ToInt32(reader["ComplaintID"]),
                         Convert.ToInt32(reader["UserID"]),
-                        reader["FoodName"].ToString(),
-                        reader["Vendor"].ToString(),
-                        reader["ComplaintType"].ToString(),
-                        reader["Description"].ToString(),
+                        reader["Username"].ToString(),
+                        reader["FoodItemName"].ToString(),
+                        reader["VendorName"].ToString(),
+                        reader["VendorID"].ToString(),
+                        reader["DetailComplaint"].ToString(),
                         reader["Status"].ToString(),
                         reader["AdminResponse"].ToString()
                     ));
@@ -311,7 +311,7 @@ namespace FoodSafetyApp
         }
 
         // =================================================================================
-        // METHOD 10: GET ALL COMPLAINTS (READ - Admin Dashboard)
+        // METHOD 10: GET ALL COMPLAINTS (UPDATED mapping for new Vendor fields)
         // =================================================================================
         public static List<Complaint> GetAllComplaints()
         {
@@ -328,10 +328,11 @@ namespace FoodSafetyApp
                     list.Add(new Complaint(
                         Convert.ToInt32(reader["ComplaintID"]),
                         Convert.ToInt32(reader["UserID"]),
-                        reader["FoodName"].ToString(),
-                        reader["Vendor"].ToString(),
-                        reader["ComplaintType"].ToString(),
-                        reader["Description"].ToString(),
+                        reader["Username"].ToString(),
+                        reader["FoodItemName"].ToString(),
+                        reader["VendorName"].ToString(),
+                        reader["VendorID"].ToString(),
+                        reader["DetailComplaint"].ToString(),
                         reader["Status"].ToString(),
                         reader["AdminResponse"].ToString()
                     ));
@@ -341,7 +342,7 @@ namespace FoodSafetyApp
         }
 
         // =================================================================================
-        // METHOD 11: ADD NEW FOOD ITEM (CREATE - Admin Feature)
+        // METHOD 11: ADD NEW FOOD ITEM 
         // =================================================================================
         public static bool AddFood(string foodName, string category, string safetyStatus)
         {
@@ -366,7 +367,7 @@ namespace FoodSafetyApp
         }
 
         // =================================================================================
-        // METHOD 12: DELETE FOOD ITEM (DELETE - Admin Feature)
+        // METHOD 12: DELETE FOOD ITEM
         // =================================================================================
         public static bool DeleteFood(int foodId)
         {
@@ -389,7 +390,7 @@ namespace FoodSafetyApp
         }
 
         // =================================================================================
-        // METHOD 13: GET ALL USERS (READ - Admin Feature)
+        // METHOD 13: GET ALL USERS (UPDATED mapping for new Sign-up fields)
         // =================================================================================
         public static List<User> GetAllUsers()
         {
@@ -405,7 +406,11 @@ namespace FoodSafetyApp
                 {
                     list.Add(new User(
                         Convert.ToInt32(reader["UserID"]),
+                        reader["FirstName"].ToString(),
                         reader["Username"].ToString(),
+                        reader["Gender"].ToString(),
+                        reader["Age"] != DBNull.Value ? Convert.ToInt32(reader["Age"]) : 0,
+                        reader["Email"].ToString(),
                         reader["Password"].ToString(),
                         reader["Role"].ToString()
                     ));

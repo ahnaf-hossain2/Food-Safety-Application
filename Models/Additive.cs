@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FoodSafetyApp.Models
+namespace Main_project.Models
 {
     // Inherits ID from FoodSafetyEntity
     public class Additive : FoodSafetyEntity
