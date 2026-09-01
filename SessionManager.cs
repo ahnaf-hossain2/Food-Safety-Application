@@ -1,7 +1,7 @@
 using System;
-using Main_project.Models;
+using FoodSafetyApplication.Models;
 
-namespace Main_project
+namespace FoodSafetyApplication
 {
     /// <summary>
     /// Manages the current logged-in user session across all forms

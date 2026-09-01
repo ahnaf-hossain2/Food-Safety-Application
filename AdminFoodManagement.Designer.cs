@@ -1,4 +1,4 @@
-namespace Main_project
+namespace FoodSafetyApplication
 {
     partial class AdminFoodManagement
     {
@@ -16,9 +16,9 @@ namespace Main_project
         private void InitializeComponent()
         {
             this.SuspendLayout();
-            // 
+            //
             // AdminFoodManagement
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 600);

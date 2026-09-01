@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using Main_project.Models;
+using FoodSafetyApplication.Models;
 
-namespace Main_project
+namespace FoodSafetyApplication
 {
     public partial class User_Page : Form
     {
@@ -63,7 +63,7 @@ namespace Main_project
         {
             // Display all food items
             List<Food> allFoods = DatabaseHelper.SearchFoods("");
-            
+
             if (allFoods.Count == 0)
             {
                 MessageBox.Show("No food items found in the database.", "Food Items", MessageBoxButtons.OK, MessageBoxIcon.Information);

@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using Main_project.Models;
+using FoodSafetyApplication.Models;
 
-namespace Main_project
+namespace FoodSafetyApplication
 {
     public partial class AdminFoodManagement : Form
     {
@@ -12,28 +12,28 @@ namespace Main_project
             InitializeComponent();
             this.Load += new System.EventHandler(this.AdminFoodManagement_Load);
             this.SuspendLayout();
-            
+
             // Create controls programmatically if not in designer
             Label label1 = new Label() { Text = "Food Name:", Left = 20, Top = 20, Width = 100 };
             TextBox foodNameTB = new TextBox() { Name = "FoodNameTB", Left = 120, Top = 20, Width = 200 };
-            
+
             Label label2 = new Label() { Text = "Category:", Left = 20, Top = 60, Width = 100 };
             TextBox categoryTB = new TextBox() { Name = "CategoryTB", Left = 120, Top = 60, Width = 200 };
-            
+
             Label label3 = new Label() { Text = "Safety Status:", Left = 20, Top = 100, Width = 100 };
             ComboBox safetyStatusCB = new ComboBox() { Name = "SafetyStatusCB", Left = 120, Top = 100, Width = 200 };
             safetyStatusCB.Items.Add("Safe");
             safetyStatusCB.Items.Add("Unsafe");
             safetyStatusCB.Items.Add("Pending");
-            
+
             Button addBtn = new Button() { Name = "AddBtn", Text = "Add Food", Left = 120, Top = 140, Width = 100 };
             addBtn.Click += new System.EventHandler(this.AddBtn_Click);
-            
+
             Button backBtn = new Button() { Name = "BackBtn", Text = "Back", Left = 240, Top = 140, Width = 80 };
             backBtn.Click += new System.EventHandler(this.BackBtn_Click);
-            
+
             ListBox foodsListBox = new ListBox() { Name = "FoodsListBox", Left = 20, Top = 180, Width = 300, Height = 200 };
-            
+
             Button deleteBtn = new Button() { Name = "DeleteBtn", Text = "Delete Selected", Left = 20, Top = 390, Width = 150 };
             deleteBtn.Click += new System.EventHandler(this.DeleteBtn_Click);
 
@@ -47,7 +47,7 @@ namespace Main_project
             this.Controls.Add(backBtn);
             this.Controls.Add(foodsListBox);
             this.Controls.Add(deleteBtn);
-            
+
             this.Text = "Food Management";
             this.Size = new System.Drawing.Size(400, 500);
             this.ResumeLayout();

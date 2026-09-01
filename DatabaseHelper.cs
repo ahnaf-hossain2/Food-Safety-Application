@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
-using Main_project.Models;
+using FoodSafetyApplication.Models;
 
-namespace Main_project
+namespace FoodSafetyApplication
 {
     public static class DatabaseHelper
     {
@@ -64,7 +64,7 @@ namespace Main_project
         }
 
         // =================================================================================
-        // METHOD 2: SEARCH FOODS 
+        // METHOD 2: SEARCH FOODS
         // =================================================================================
         public static List<Food> SearchFoods(string keyword)
         {
@@ -101,7 +101,7 @@ namespace Main_project
             {
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
-                    string query = @"INSERT INTO Complaints (UserID, Username, FoodItemName, VendorName, VendorID, DetailComplaint, Status, AdminResponse, DateSubmitted) 
+                    string query = @"INSERT INTO Complaints (UserID, Username, FoodItemName, VendorName, VendorID, DetailComplaint, Status, AdminResponse, DateSubmitted)
                                      VALUES (@UserID, @Username, @FoodItemName, @VendorName, @VendorID, @DetailComplaint, @Status, @AdminResponse, @DateSubmitted)";
 
                     SqlCommand cmd = new SqlCommand(query, conn);
@@ -129,7 +129,7 @@ namespace Main_project
         }
 
         // =================================================================================
-        // METHOD 4: GET ALL ADDITIVES 
+        // METHOD 4: GET ALL ADDITIVES
         // =================================================================================
         public static List<Additive> GetAllAdditives()
         {
@@ -190,7 +190,7 @@ namespace Main_project
         }
 
         // =================================================================================
-        // METHOD 6: UPDATE COMPLAINT STATUS 
+        // METHOD 6: UPDATE COMPLAINT STATUS
         // =================================================================================
         public static bool UpdateComplaintStatus(int complaintId, string status, string adminResponse)
         {
@@ -216,7 +216,7 @@ namespace Main_project
         }
 
         // =================================================================================
-        // METHOD 7: CALCULATE CATEGORY SAFETY SCORE 
+        // METHOD 7: CALCULATE CATEGORY SAFETY SCORE
         // =================================================================================
         public static double CalculateCategorySafetyScore(string category)
         {
@@ -255,7 +255,7 @@ namespace Main_project
             {
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
-                    string query = @"INSERT INTO Users (FirstName, Username, Gender, Age, Email, Password, Role) 
+                    string query = @"INSERT INTO Users (FirstName, Username, Gender, Age, Email, Password, Role)
                                      VALUES (@FirstName, @Username, @Gender, @Age, @Email, @Password, @Role)";
 
                     SqlCommand cmd = new SqlCommand(query, conn);
@@ -342,7 +342,7 @@ namespace Main_project
         }
 
         // =================================================================================
-        // METHOD 11: ADD NEW FOOD ITEM 
+        // METHOD 11: ADD NEW FOOD ITEM
         // =================================================================================
         public static bool AddFood(string foodName, string category, string safetyStatus)
         {

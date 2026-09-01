@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using Main_project.Models;
+using FoodSafetyApplication.Models;
 
-namespace Main_project
+namespace FoodSafetyApplication
 {
     public partial class AdminAdditivesManagement : Form
     {
@@ -12,20 +12,20 @@ namespace Main_project
             InitializeComponent();
             this.Load += new System.EventHandler(this.AdminAdditivesManagement_Load);
             this.SuspendLayout();
-            
+
             Label titleLabel = new Label() { Text = "Manage Additives", Left = 20, Top = 20, Width = 300, Font = new System.Drawing.Font("Arial", 14, System.Drawing.FontStyle.Bold) };
-            
+
             ListBox additivesListBox = new ListBox() { Name = "AdditivesListBox", Left = 20, Top = 60, Width = 350, Height = 250 };
-            
+
             Label label1 = new Label() { Text = "Additive Name:", Left = 20, Top = 320, Width = 100 };
             TextBox addNameTB = new TextBox() { Name = "AddNameTB", Left = 130, Top = 320, Width = 240 };
-            
+
             Label label2 = new Label() { Text = "INS Number:", Left = 20, Top = 360, Width = 100 };
             TextBox insNumberTB = new TextBox() { Name = "INSNumberTB", Left = 130, Top = 360, Width = 240 };
-            
+
             Label label3 = new Label() { Text = "Max Limit:", Left = 20, Top = 400, Width = 100 };
             TextBox maxLimitTB = new TextBox() { Name = "MaxLimitTB", Left = 130, Top = 400, Width = 240 };
-            
+
             Button backBtn = new Button() { Name = "BackBtn", Text = "Back", Left = 310, Top = 450, Width = 60 };
             backBtn.Click += new System.EventHandler(this.BackBtn_Click);
 
@@ -38,7 +38,7 @@ namespace Main_project
             this.Controls.Add(label3);
             this.Controls.Add(maxLimitTB);
             this.Controls.Add(backBtn);
-            
+
             this.Text = "Additives Management";
             this.Size = new System.Drawing.Size(420, 530);
             this.ResumeLayout();

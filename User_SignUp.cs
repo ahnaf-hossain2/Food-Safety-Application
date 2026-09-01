@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
-using Main_project.Models;
+using FoodSafetyApplication.Models;
 
-namespace Main_project
+namespace FoodSafetyApplication
 {
     public partial class User_SignUp : Form
     {
@@ -85,7 +85,7 @@ namespace Main_project
 
             // Create user object and register
             User newUser = new User(0, firstName, username, gender, age, email, password, "User");
-            
+
             if (DatabaseHelper.RegisterUser(newUser))
             {
                 MessageBox.Show($"Account successfully created for {firstName}!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);

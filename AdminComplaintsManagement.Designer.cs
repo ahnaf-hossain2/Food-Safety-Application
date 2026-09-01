@@ -1,4 +1,4 @@
-namespace Main_project
+namespace FoodSafetyApplication
 {
     partial class AdminComplaintsManagement
     {

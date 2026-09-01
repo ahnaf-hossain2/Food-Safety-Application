@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace Main_project
+namespace FoodSafetyApplication
 {
     partial class Homepage
     {
@@ -24,7 +24,7 @@ namespace Main_project
 
         private void Hp_AdminSIgninPnl_Paint(object sender, PaintEventArgs e)
         {
-            
+
         }
 
         #region Windows Form Designer generated code
@@ -74,9 +74,9 @@ namespace Main_project
             this.UserSignInPanel.SuspendLayout();
             this.Hp_AdminSIgninPnl.SuspendLayout();
             this.SuspendLayout();
-            // 
+            //
             // FoodSafetyAppLabel
-            // 
+            //
             this.FoodSafetyAppLabel.AutoSize = true;
             this.FoodSafetyAppLabel.BackColor = System.Drawing.Color.Yellow;
             this.FoodSafetyAppLabel.Font = new System.Drawing.Font("Showcard Gothic", 15F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -86,9 +86,9 @@ namespace Main_project
             this.FoodSafetyAppLabel.Size = new System.Drawing.Size(200, 26);
             this.FoodSafetyAppLabel.TabIndex = 1;
             this.FoodSafetyAppLabel.Text = "Food Safety APP";
-            // 
+            //
             // HPDashboardBt1
-            // 
+            //
             this.HPDashboardBt1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.HPDashboardBt1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.HPDashboardBt1.Location = new System.Drawing.Point(12, 79);
@@ -97,9 +97,9 @@ namespace Main_project
             this.HPDashboardBt1.TabIndex = 2;
             this.HPDashboardBt1.Text = "Dashboard";
             this.HPDashboardBt1.UseVisualStyleBackColor = false;
-            // 
+            //
             // panel1
-            // 
+            //
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.panel1.Controls.Add(this.HP_LogoutBt1);
             this.panel1.Controls.Add(this.HP_AboutBt);
@@ -111,9 +111,9 @@ namespace Main_project
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(158, 248);
             this.panel1.TabIndex = 3;
-            // 
+            //
             // HP_LogoutBt1
-            // 
+            //
             this.HP_LogoutBt1.BackColor = System.Drawing.Color.Red;
             this.HP_LogoutBt1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HP_LogoutBt1.Location = new System.Drawing.Point(16, 209);
@@ -122,9 +122,9 @@ namespace Main_project
             this.HP_LogoutBt1.TabIndex = 6;
             this.HP_LogoutBt1.Text = "Log out";
             this.HP_LogoutBt1.UseVisualStyleBackColor = false;
-            // 
+            //
             // HP_AboutBt
-            // 
+            //
             this.HP_AboutBt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.HP_AboutBt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HP_AboutBt.Location = new System.Drawing.Point(16, 105);
@@ -133,9 +133,9 @@ namespace Main_project
             this.HP_AboutBt.TabIndex = 5;
             this.HP_AboutBt.Text = "About";
             this.HP_AboutBt.UseVisualStyleBackColor = false;
-            // 
+            //
             // Hp_AdminLoginBt1
-            // 
+            //
             this.Hp_AdminLoginBt1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.Hp_AdminLoginBt1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Hp_AdminLoginBt1.Location = new System.Drawing.Point(16, 177);
@@ -144,9 +144,9 @@ namespace Main_project
             this.Hp_AdminLoginBt1.TabIndex = 4;
             this.Hp_AdminLoginBt1.Text = "Admin Login";
             this.Hp_AdminLoginBt1.UseVisualStyleBackColor = false;
-            // 
+            //
             // HP_LogInBt1
-            // 
+            //
             this.HP_LogInBt1.BackColor = System.Drawing.Color.Lime;
             this.HP_LogInBt1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HP_LogInBt1.Location = new System.Drawing.Point(16, 144);
@@ -155,9 +155,9 @@ namespace Main_project
             this.HP_LogInBt1.TabIndex = 3;
             this.HP_LogInBt1.Text = "User Login";
             this.HP_LogInBt1.UseVisualStyleBackColor = false;
-            // 
+            //
             // HP_LawsBt
-            // 
+            //
             this.HP_LawsBt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.HP_LawsBt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HP_LawsBt.Location = new System.Drawing.Point(16, 60);
@@ -166,9 +166,9 @@ namespace Main_project
             this.HP_LawsBt.TabIndex = 1;
             this.HP_LawsBt.Text = "Laws";
             this.HP_LawsBt.UseVisualStyleBackColor = false;
-            // 
+            //
             // HPageFSafety_RulesBt1
-            // 
+            //
             this.HPageFSafety_RulesBt1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.HPageFSafety_RulesBt1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HPageFSafety_RulesBt1.Location = new System.Drawing.Point(16, 18);
@@ -177,9 +177,9 @@ namespace Main_project
             this.HPageFSafety_RulesBt1.TabIndex = 0;
             this.HPageFSafety_RulesBt1.Text = "Food Safety Rules";
             this.HPageFSafety_RulesBt1.UseVisualStyleBackColor = false;
-            // 
+            //
             // HP_ImageSlideBox
-            // 
+            //
             this.HP_ImageSlideBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.HP_ImageSlideBox.Image = global::Main_project.Properties.Resources.FS_HPimage1;
             this.HP_ImageSlideBox.Location = new System.Drawing.Point(191, 113);
@@ -188,9 +188,9 @@ namespace Main_project
             this.HP_ImageSlideBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.HP_ImageSlideBox.TabIndex = 4;
             this.HP_ImageSlideBox.TabStop = false;
-            // 
+            //
             // pictureBox1
-            // 
+            //
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.pictureBox1.Image = global::Main_project.Properties.Resources.Gemini_Generated_Image_x1v28ex1v28ex1v2;
             this.pictureBox1.Location = new System.Drawing.Point(109, 12);
@@ -200,14 +200,14 @@ namespace Main_project
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
+            //
             // Imagetimer1
-            // 
+            //
             this.Imagetimer1.Enabled = true;
             this.Imagetimer1.Interval = 3000;
-            // 
+            //
             // HP_textbarlabel
-            // 
+            //
             this.HP_textbarlabel.AutoSize = true;
             this.HP_textbarlabel.BackColor = System.Drawing.Color.White;
             this.HP_textbarlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -216,14 +216,14 @@ namespace Main_project
             this.HP_textbarlabel.Size = new System.Drawing.Size(233, 15);
             this.HP_textbarlabel.TabIndex = 5;
             this.HP_textbarlabel.Text = "WELCOME TO FOOD SAFETY APPS";
-            // 
+            //
             // HPtextbar_timer
-            // 
+            //
             this.HPtextbar_timer.Enabled = true;
             this.HPtextbar_timer.Interval = 50;
-            // 
+            //
             // label1
-            // 
+            //
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.label1.Location = new System.Drawing.Point(45, 32);
@@ -232,9 +232,9 @@ namespace Main_project
             this.label1.Size = new System.Drawing.Size(60, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "User Name";
-            // 
+            //
             // label2
-            // 
+            //
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.label2.Location = new System.Drawing.Point(45, 60);
@@ -243,25 +243,25 @@ namespace Main_project
             this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Password";
-            // 
+            //
             // HP_UserSigninUsernameTB
-            // 
+            //
             this.HP_UserSigninUsernameTB.Location = new System.Drawing.Point(118, 30);
             this.HP_UserSigninUsernameTB.Margin = new System.Windows.Forms.Padding(2);
             this.HP_UserSigninUsernameTB.Name = "HP_UserSigninUsernameTB";
             this.HP_UserSigninUsernameTB.Size = new System.Drawing.Size(174, 20);
             this.HP_UserSigninUsernameTB.TabIndex = 2;
-            // 
+            //
             // HP_UserSigninPassTB
-            // 
+            //
             this.HP_UserSigninPassTB.Location = new System.Drawing.Point(118, 58);
             this.HP_UserSigninPassTB.Margin = new System.Windows.Forms.Padding(2);
             this.HP_UserSigninPassTB.Name = "HP_UserSigninPassTB";
             this.HP_UserSigninPassTB.Size = new System.Drawing.Size(174, 20);
             this.HP_UserSigninPassTB.TabIndex = 3;
-            // 
+            //
             // HP_usersignin_pnl_signInBt
-            // 
+            //
             this.HP_usersignin_pnl_signInBt.BackColor = System.Drawing.Color.Lime;
             this.HP_usersignin_pnl_signInBt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.HP_usersignin_pnl_signInBt.Location = new System.Drawing.Point(169, 93);
@@ -271,9 +271,9 @@ namespace Main_project
             this.HP_usersignin_pnl_signInBt.TabIndex = 4;
             this.HP_usersignin_pnl_signInBt.Text = "Sign In";
             this.HP_usersignin_pnl_signInBt.UseVisualStyleBackColor = false;
-            // 
+            //
             // label3
-            // 
+            //
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(45, 140);
@@ -282,9 +282,9 @@ namespace Main_project
             this.label3.Size = new System.Drawing.Size(138, 13);
             this.label3.TabIndex = 5;
             this.label3.Text = "Don\'t  Have Account . ";
-            // 
+            //
             // Hp_uSignin_pnl_SignUpBt
-            // 
+            //
             this.Hp_uSignin_pnl_SignUpBt.BackColor = System.Drawing.Color.Khaki;
             this.Hp_uSignin_pnl_SignUpBt.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Hp_uSignin_pnl_SignUpBt.Location = new System.Drawing.Point(161, 137);
@@ -295,9 +295,9 @@ namespace Main_project
             this.Hp_uSignin_pnl_SignUpBt.Text = "Sign UP";
             this.Hp_uSignin_pnl_SignUpBt.UseVisualStyleBackColor = false;
             this.Hp_uSignin_pnl_SignUpBt.Click += new System.EventHandler(this.Hp_uSignin_pnl_SignUpBt_Click);
-            // 
+            //
             // HP_usersignin_pnl_ForgotPassBt
-            // 
+            //
             this.HP_usersignin_pnl_ForgotPassBt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.HP_usersignin_pnl_ForgotPassBt.Location = new System.Drawing.Point(59, 97);
             this.HP_usersignin_pnl_ForgotPassBt.Margin = new System.Windows.Forms.Padding(2);
@@ -306,9 +306,9 @@ namespace Main_project
             this.HP_usersignin_pnl_ForgotPassBt.TabIndex = 7;
             this.HP_usersignin_pnl_ForgotPassBt.Text = "Forgot Password";
             this.HP_usersignin_pnl_ForgotPassBt.UseVisualStyleBackColor = false;
-            // 
+            //
             // Hp_usSignin_pnlCLoseBt
-            // 
+            //
             this.Hp_usSignin_pnlCLoseBt.BackColor = System.Drawing.Color.OrangeRed;
             this.Hp_usSignin_pnlCLoseBt.Location = new System.Drawing.Point(284, 5);
             this.Hp_usSignin_pnlCLoseBt.Margin = new System.Windows.Forms.Padding(2);
@@ -317,9 +317,9 @@ namespace Main_project
             this.Hp_usSignin_pnlCLoseBt.TabIndex = 8;
             this.Hp_usSignin_pnlCLoseBt.Text = "X";
             this.Hp_usSignin_pnlCLoseBt.UseVisualStyleBackColor = false;
-            // 
+            //
             // UserSignInPanel
-            // 
+            //
             this.UserSignInPanel.BackColor = System.Drawing.Color.Khaki;
             this.UserSignInPanel.Controls.Add(this.Hp_usSignin_pnlCLoseBt);
             this.UserSignInPanel.Controls.Add(this.HP_usersignin_pnl_ForgotPassBt);
@@ -335,9 +335,9 @@ namespace Main_project
             this.UserSignInPanel.Name = "UserSignInPanel";
             this.UserSignInPanel.Size = new System.Drawing.Size(327, 173);
             this.UserSignInPanel.TabIndex = 9;
-            // 
+            //
             // Hp_AdminSIgninPnl
-            // 
+            //
             this.Hp_AdminSIgninPnl.Controls.Add(this.Hp_AdminpnlCloseBt);
             this.Hp_AdminSIgninPnl.Controls.Add(this.Hp_adminPnlForgotpassBt);
             this.Hp_AdminSIgninPnl.Controls.Add(this.Hp_adminPnlSigninBt);
@@ -351,9 +351,9 @@ namespace Main_project
             this.Hp_AdminSIgninPnl.Size = new System.Drawing.Size(327, 184);
             this.Hp_AdminSIgninPnl.TabIndex = 10;
             this.Hp_AdminSIgninPnl.Paint += new System.Windows.Forms.PaintEventHandler(this.Hp_AdminSIgninPnl_Paint);
-            // 
+            //
             // Hp_AdminpnlCloseBt
-            // 
+            //
             this.Hp_AdminpnlCloseBt.BackColor = System.Drawing.Color.OrangeRed;
             this.Hp_AdminpnlCloseBt.Location = new System.Drawing.Point(285, 6);
             this.Hp_AdminpnlCloseBt.Margin = new System.Windows.Forms.Padding(2);
@@ -362,9 +362,9 @@ namespace Main_project
             this.Hp_AdminpnlCloseBt.TabIndex = 6;
             this.Hp_AdminpnlCloseBt.Text = "X";
             this.Hp_AdminpnlCloseBt.UseVisualStyleBackColor = false;
-            // 
+            //
             // Hp_adminPnlForgotpassBt
-            // 
+            //
             this.Hp_adminPnlForgotpassBt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.Hp_adminPnlForgotpassBt.Location = new System.Drawing.Point(47, 115);
             this.Hp_adminPnlForgotpassBt.Margin = new System.Windows.Forms.Padding(2);
@@ -373,9 +373,9 @@ namespace Main_project
             this.Hp_adminPnlForgotpassBt.TabIndex = 5;
             this.Hp_adminPnlForgotpassBt.Text = "Forgot Password";
             this.Hp_adminPnlForgotpassBt.UseVisualStyleBackColor = false;
-            // 
+            //
             // Hp_adminPnlSigninBt
-            // 
+            //
             this.Hp_adminPnlSigninBt.BackColor = System.Drawing.Color.Lime;
             this.Hp_adminPnlSigninBt.Location = new System.Drawing.Point(181, 114);
             this.Hp_adminPnlSigninBt.Margin = new System.Windows.Forms.Padding(2);
@@ -384,25 +384,25 @@ namespace Main_project
             this.Hp_adminPnlSigninBt.TabIndex = 4;
             this.Hp_adminPnlSigninBt.Text = "SIGN IN";
             this.Hp_adminPnlSigninBt.UseVisualStyleBackColor = false;
-            // 
+            //
             // Hp_AdminpnlPassTB
-            // 
+            //
             this.Hp_AdminpnlPassTB.Location = new System.Drawing.Point(129, 76);
             this.Hp_AdminpnlPassTB.Margin = new System.Windows.Forms.Padding(2);
             this.Hp_AdminpnlPassTB.Name = "Hp_AdminpnlPassTB";
             this.Hp_AdminpnlPassTB.Size = new System.Drawing.Size(151, 20);
             this.Hp_AdminpnlPassTB.TabIndex = 3;
-            // 
+            //
             // Hp_AdminpnlAdminNameTB
-            // 
+            //
             this.Hp_AdminpnlAdminNameTB.Location = new System.Drawing.Point(129, 42);
             this.Hp_AdminpnlAdminNameTB.Margin = new System.Windows.Forms.Padding(2);
             this.Hp_AdminpnlAdminNameTB.Name = "Hp_AdminpnlAdminNameTB";
             this.Hp_AdminpnlAdminNameTB.Size = new System.Drawing.Size(151, 20);
             this.Hp_AdminpnlAdminNameTB.TabIndex = 2;
-            // 
+            //
             // label5
-            // 
+            //
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Wheat;
             this.label5.Location = new System.Drawing.Point(45, 81);
@@ -411,9 +411,9 @@ namespace Main_project
             this.label5.Size = new System.Drawing.Size(53, 13);
             this.label5.TabIndex = 1;
             this.label5.Text = "Password";
-            // 
+            //
             // label4
-            // 
+            //
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Wheat;
             this.label4.Location = new System.Drawing.Point(45, 47);
@@ -422,9 +422,9 @@ namespace Main_project
             this.label4.Size = new System.Drawing.Size(67, 13);
             this.label4.TabIndex = 0;
             this.label4.Text = "Admin Name";
-            // 
+            //
             // Homepage
-            // 
+            //
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
@@ -489,4 +489,3 @@ namespace Main_project
         private System.Windows.Forms.Button Hp_AdminpnlCloseBt;
     }
 }
-

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Main_project.Models
+namespace FoodSafetyApplication.Models
 {
     // Inherits ID from FoodSafetyEntity
     public class Complaint : FoodSafetyEntity

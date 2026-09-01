@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Main_project
+namespace FoodSafetyApplication
 {
     // Parent Class: Holds common primary key property for all entities
     public class FoodSafetyEntity

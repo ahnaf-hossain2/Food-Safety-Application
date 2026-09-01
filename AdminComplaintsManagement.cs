@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using Main_project.Models;
+using FoodSafetyApplication.Models;
 
-namespace Main_project
+namespace FoodSafetyApplication
 {
     public partial class AdminComplaintsManagement : Form
     {
@@ -14,25 +14,25 @@ namespace Main_project
             InitializeComponent();
             this.Load += new System.EventHandler(this.AdminComplaintsManagement_Load);
             this.SuspendLayout();
-            
+
             Label titleLabel = new Label() { Text = "Manage Complaints", Left = 20, Top = 20, Width = 300, Font = new System.Drawing.Font("Arial", 14, System.Drawing.FontStyle.Bold) };
-            
+
             ListBox complaintsListBox = new ListBox() { Name = "ComplaintsListBox", Left = 20, Top = 60, Width = 400, Height = 200 };
             complaintsListBox.SelectedIndexChanged += new System.EventHandler(this.ComplaintsListBox_SelectedIndexChanged);
-            
+
             Label statusLabel = new Label() { Text = "Status:", Left = 20, Top = 270, Width = 60 };
             ComboBox statusCB = new ComboBox() { Name = "StatusCB", Left = 90, Top = 270, Width = 150 };
             statusCB.Items.Add("Pending");
             statusCB.Items.Add("In Review");
             statusCB.Items.Add("Resolved");
             statusCB.Items.Add("Rejected");
-            
+
             Label responseLabel = new Label() { Text = "Response:", Left = 20, Top = 310, Width = 70 };
             TextBox responseTB = new TextBox() { Name = "ResponseTB", Left = 90, Top = 310, Width = 330, Height = 60, Multiline = true };
-            
+
             Button updateBtn = new Button() { Name = "UpdateBtn", Text = "Update Status & Response", Left = 90, Top = 380, Width = 200 };
             updateBtn.Click += new System.EventHandler(this.UpdateBtn_Click);
-            
+
             Button backBtn = new Button() { Name = "BackBtn", Text = "Back", Left = 310, Top = 380, Width = 110 };
             backBtn.Click += new System.EventHandler(this.BackBtn_Click);
 
@@ -44,7 +44,7 @@ namespace Main_project
             this.Controls.Add(responseTB);
             this.Controls.Add(updateBtn);
             this.Controls.Add(backBtn);
-            
+
             this.Text = "Complaints Management";
             this.Size = new System.Drawing.Size(480, 470);
             this.ResumeLayout();

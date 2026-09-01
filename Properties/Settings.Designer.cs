@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Main_project.Properties
+namespace FoodSafetyApplication.Properties
 {
 
 

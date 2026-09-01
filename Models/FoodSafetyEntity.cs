@@ -1,6 +1,6 @@
 using System;
 
-namespace Main_project.Models
+namespace FoodSafetyApplication.Models
 {
     // Common base class for all entity models (Food, Additive, Incident, Complaint, User).
     // Provides the shared primary-key ID property.
